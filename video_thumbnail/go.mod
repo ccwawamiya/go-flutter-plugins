@@ -1,4 +1,4 @@
-module github.com/ccwawamiya/go-flutter-plugins/video_thumbnail/go
+module github.com/ccwawamiya/go-flutter-plugins/video_thumbnail
 
 go 1.13
 
