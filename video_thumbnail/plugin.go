@@ -33,7 +33,7 @@ const (
 // InitPlugin initializes the plugin.
 func (p *VideoThumbnailPlugin) InitPlugin(messenger plugin.BinaryMessenger) error {
 	channel := plugin.NewMethodChannel(messenger, channelName, plugin.StandardMethodCodec{})
-	channel.HandleFunc("thumbnailFile", p.handleThumbnailFile)
+	channel.HandleFunc("file", p.handleThumbnailFile)
 	return nil
 }
 
