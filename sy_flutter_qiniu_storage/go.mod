@@ -1,4 +1,4 @@
-module github.com/ccwawamiya/sy_flutter_qiniu_storage/go
+module github.com/ccwawamiya/go-flutter-plugins/sy_flutter_qiniu_storage
 
 go 1.13
 
