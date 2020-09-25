@@ -2,10 +2,10 @@ package media_info
 
 import (
 	"bufio"
+	"github.com/ccwawamiya/screengen"
 	"github.com/gabriel-vasile/mimetype"
 	"github.com/go-flutter-desktop/go-flutter"
 	"github.com/go-flutter-desktop/go-flutter/plugin"
-	"gitlab.com/opennota/screengen"
 	"image"
 	"image/jpeg"
 	"os"

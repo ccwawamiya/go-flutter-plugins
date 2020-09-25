@@ -3,10 +3,10 @@ package video_thumbnail
 import (
 	"bufio"
 	"fmt"
+	"github.com/ccwawamiya/screengen"
 	"github.com/chai2010/webp"
 	flutter "github.com/go-flutter-desktop/go-flutter"
 	"github.com/go-flutter-desktop/go-flutter/plugin"
-	"gitlab.com/opennota/screengen"
 	"image"
 	"image/jpeg"
 	"image/png"
